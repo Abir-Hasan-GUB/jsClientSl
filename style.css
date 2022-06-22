@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 793px;
+    height: 1122px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.29);
+}
+
+.pagePadding {
+    padding: 0 50px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#page-5 .page-5-bg {
+    background: url(../images/page-5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#page-5 .page-5-bg .header {
+    padding-top: 80px;
+}
+
+#page-5 .page-5-bg .header .pageTile {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 126.68%;
+    text-transform: uppercase;
+    color: #002c4c;
+}
+
+#page-5 .page-5-bg .header .headerDescription {
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 100px;
+    line-height: 160%;
+    color: #002c4c;
+}
+
+#page-5 .page-5-bg .pageFiveCards .cardsFlexCtrl {
+    padding: 30px 0;
+
+    justify-content: space-between;
+}
+
+#page-5 .page-5-bg .pageFiveCards .singleCard {
+
+    width: 32.33%;
+    float: left;
+    margin-right: 1%;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 144.5%;
+    min-height: 340px;
+    letter-spacing: 0.02em;
+    color: #002c4d;
+    position: relative;
+}
+
+#page-5 .page-5-bg .pageFiveCards .singleCard .miniCircle {
+    position: absolute;
+    right: 40px;
+    top: -1rem;
+}
+
+#page-5 .page-5-bg .pageFiveCards .card-titel {
+    padding: 10px 0;
+}
+
+#page-5 .page-5-bg .pageFiveCards .card-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 168%;
+    letter-spacing: 0.015em;
+    color: #002c4d;
+}
+
+.cardDownText {
+    padding: 3rem 0;
+}
+
+.cardDownText .cardDownTitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 168%;
+    letter-spacing: 0.02em;
+    color: #002c4d;
+}
+
+.cardDownText .cardDownTitleTwo {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: #002c4d;
+    padding: 15px 0;
+}
+
+.cardDownText .cardDownThree {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 168%;
+    letter-spacing: 0.015em;
+    color: #002c4d;
+}
+
+.cardLastCard {
+
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    background: url(../images/userCard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 50px;
+    padding-left: 70px;
+}
+
+.cardLastCard img {
+    margin-top: 7px;
+    float: left;
+}
+
+.cardLastCard .lstCtrlTT {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 168%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.cardLastCard .lstCtrDes {
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 0.35;
+}
